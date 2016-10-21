@@ -10,7 +10,7 @@ public class Main {
 		do{
 		System.out.print("Please enter a password: ") ;
 		password = scanner.next();
-		pass1.change(password);
+		System.out.println(pass1.change(password));;
 		}while(!password.equals("exit"));
 		scanner.close();
 	}	
